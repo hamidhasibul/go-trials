@@ -4,8 +4,8 @@ func main() {
 
 	// var card string = "Ace of spades"
 
-	cards := newDeck()
+	cards := newDeckFromFile("my-cards.txt")
 
-	cards.saveToFile("my-cards.txt")
+	cards.print()
 
 }
